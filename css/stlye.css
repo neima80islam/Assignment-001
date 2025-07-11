@@ -19,3 +19,42 @@ background-repeat: no-repeat;
 max-width: 1400px;
 height: 600px;
 }
+
+/* navber stlye */
+
+nav{
+    display: flex;
+   justify-content: space-between;
+   padding: 30px 110px;
+}
+nav h1{
+    font-size: 30px;
+    font-style: italic;
+}
+nav h1 span{
+color:#4E47FF;
+}
+.btn{
+    background-color: #4E47FF;
+    font-size: 16px;
+    padding: 7px 18px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    transition: all ease-in-out 1S;
+}
+.btn:hover{
+    transform: translateY(-10px);
+    background-color: #252432;
+}
+.navigation-banner{
+     width: 700px;
+   text-align: center;
+   margin: 100px auto;
+    }
+.navigation-banner h2{
+    color: #252432;
+    font-size: 50px;
+    margin-bottom: 50px;
+    
+}
